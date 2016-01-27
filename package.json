@@ -1,0 +1,39 @@
+{
+  "name": "bag-and-tag",
+  "version": "0.0.1",
+  "description": "NodeJS task for publishing a project. Intended to be used in NPM script.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "dev": "./node_modules/.bin/watch 'npm run test' ./lib ./test",
+    "release": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fczbkk/bag-and-tag.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczbkk/bag-and-tag/issues"
+  },
+  "homepage": "https://github.com/fczbkk/bag-and-tag#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "colors": "^1.1.2",
+    "concat-stream": "^1.5.1",
+    "conventional-changelog": "^0.5.3",
+    "find-files-by-content": "^1.0.0",
+    "fs-extra": "^0.26.4",
+    "inquirer": "^0.11.3",
+    "semver": "^5.1.0"
+  },
+  "bin": "./bin/index.js",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "watch": "^0.17.1"
+  }
+}
