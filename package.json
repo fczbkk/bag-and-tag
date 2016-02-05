@@ -1,6 +1,6 @@
 {
   "name": "bag-and-tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJS task for publishing a project. Intended to be used in NPM script.",
   "main": "lib/index.js",
   "scripts": {
